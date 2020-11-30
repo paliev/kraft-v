@@ -1,0 +1,2 @@
+const d=document,w=window;
+(function(h,e,f,k,c,l){function d(){a.classList.toggle(c);g&&a.classList.toggle(g)}function m(b){b=b.target;"a"!==b.tagName.toLowerCase()&&b!==f||d()}function n(){a.classList.contains(c)&&d()}var a=h.getElementsByTagName("html")[0],g=17===e[innerWidth]-a.offsetWidth?c+"17":void 0;k.addEventListener("click",d);768>e[innerWidth]&&(l.addEventListener("click",n),f.addEventListener("click",m))})(d,w,d.getElementById("menu"),d.getElementById("menu-btn"),"menu-open",d.getElementById("logo"));
